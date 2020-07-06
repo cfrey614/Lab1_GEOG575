@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>
+            GEOG 575: LAB 1
+        </title>
+
+		<link href="css/bootstrap1.min.css" type="text/css" rel="stylesheet"/>
+		<link href="lib/leaflet/leaflet.css" type ="text/css" rel="stylesheet" />
+		<link href="css/style.css" type="text/css" rel="stylesheet"/>
+        <link href="css/map.css" type="text/css" rel="stylesheet"/>        
+        
+        
+	</head>
+	<body class>
+        <div class="jumbotron jumbotron-fludi">
+            <div class="container">
+                <h1>Terrorist Attacks Around the World: 1970 - 2018</h1> 
+            </div>
+        </div>
+        <div class="container main">
+            <div class = "row">
+                <div class-"col-md-4 my-auto text-center">
+                    <h3>"Terrorism has become the systematic weapon of a war that knows no borders or seldom has a face."</h3>
+                    <h3>~ Jacques Chirac</h3>
+                </div>
+                <div class="col-md-8">
+                    <p>The world today is in a lot of turmoil and part of that turmoil is from terrorist attacks in many different countries. When the words "terrorist attakcs" is brought up, in the United States many people think of September 11, 2001 and the subsequent "War on Terror".</p>
+                    <p>Terrorist attacks, however, happen in many countries around the world and have many different causes. The National Consortium for the Study of Terrorism and Responses to Terrorism (START) has gathered and coded over 190,000 terrorist attacks fomr 1970 - 2018. These attacks include more than 91,000 bombings, 20,000 assassinations, and 13,0000 kidnapping/hostage events. </p>
+                    <p>The map below shows the number of attacks for each country from 1970 - 2018. One of the factors in terrorist attacks is current political climates. If one were to view a map with just the total attacks per coutnry, it would be hard to understand to try and pinpoint when and what the political climate for those attacks were. By viewing the data from the Global Terrorism Databse in this way, one can look up and see what the political climate was during that time.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="map-container">
+                        <h4>Terrorist Attacks per Country</h4>
+                        <div id="map"></div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="attribution-container">
+                <p><b>Sources</b></p>
+                <p>START: <a href="https://www.start.umd.edu/gtd/" target="_blank">Global Terrorism Database</a></p>
+                <p>Daily Maverick: <a href="https://www.dailymaverick.co.za/article/2018-12-05-warning-of-possible-islamic-state-holiday-terror-attacks-in-sa-carries-little-weight/#gsc.tab=0" target="_blank">Eplosion Photo</a></p>
+                <p>Jacques Chirac: <a href="http://www.notable-quotes.com/t/terrorism_quotes_ii.html" target="_blank">Quote</a></p>
+            </div>
+        </div>
+        <script type="text/javascript" src="lib/leaflet/leaflet-src.js"></script>
+        <script type="text/javascript" src="lib/jquery-3.5.1%20(1).js"></script>
+        <script type="text/javascript" src="js/geojson.js"></script>
+        
+	</body>
+</html>
